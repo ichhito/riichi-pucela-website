@@ -16,6 +16,6 @@ jobs:
     - name: Desplegar a Neocities
       uses: bcomnes/deploy-to-neocities@v3
       with:
-        api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
+        api_key: ${{ secrets.WEBSITE_API }}
         cleanup: false
         dist_dir: .
