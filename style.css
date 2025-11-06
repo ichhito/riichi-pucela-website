@@ -201,8 +201,8 @@ a:hover {
 
 /*AUX*/
 .section img.ficha-fix {
-  width: 100%;          /* Intenta ocupar todo el espacio disponible... */
-  max-width: 500px;     /* ...pero ponles un límite fijo igual para todas. */
-  height: auto;         /* Mantiene la proporción para que no se deformen */
+  width: 100%;         
+  max-width: 80px;     
+  height: auto;        
 }
 
