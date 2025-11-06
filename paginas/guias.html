@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <title>Guia Básica</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <!-- Todo lo del head copiar y pegar a otras paginas -->
+
+  <body>
+    <header id="top">
+      <div class="banner-content">
+        <h1>Riichi Pucela</h1>
+        <p>Repositorio de guías y tips del grupo de Mahjong de FGCPucela</p>
+      </div>
+    </header>
+        <nav class="nav-bar">
+  <a href="/index.html" class="nav-button">Inicio</a>
+  <a href="/guias.html" class="nav-button">Guía Básica</a>
+  <a href="/strategy.html" class="nav-button">Estrategias</a>
+  <a href="/links.html" class="nav-button">Enlaces</a>
+  <a href="/about.html" class="nav-button">About</a>
+</nav>
+    <main>
+    <h1>En construccion</h1>
+    
+    <section class="section">
+    <h2>Disclaimer</h2>
+    <p>En esta guía explico los conocimientos básicos para empezar a jugar <strong>Riichi Mahjong</strong>, la modalidad japonesa del juego, las que se juegan en los animes y la mayoría de videojuegos. Debido a que el Mahjong tiene un porrón de reglas y estrategias, en esta guía se explicarán los conceptos para poder empezar a jugar de la manera más entretenida de leer posible.</p>
+    
+    
+    <h2>¿Vale pero de que coño va el Mahjong?</h2>
+    <p>El Riichi Mahjong es un juego similar al Poker y al Chinchón (esto segundo no controlo tanto, que alguien que sepa me ayude), hay que crear combinaciones de manos (o yakus en terminología de riichi) con 13 + 1 fichas (contando el que se va cogiendo y descartando cada turno), es posible robar fichas de los demás a cambio de ciertas restricciones y, después de ciertas rondas, el que tenga más puntos gana.</p>
+    
+    <p>
+      Lo he explicado a muy grandes rasgos pero de esto va el juego, es un juego de apuestas con gran complejidad donde se tiene que pensar cada descarte y los robos de fichas a los demás.
+    </p>
+    
+
+    
+    <h2>Terminologia de fichas</h2>
+    <p>Estas son las fichas del Mahjong, muy importante aprendérselas porque, a parte de que sin acordarse de ellas no se podrá jugar, en esta guía se va a hacer uso de la terminología aquí escrita: </p>
+    <ul> 
+    <li> <strong>Palos numéricos</strong>: Hay del 1 al 9
+      <ul>
+        <li> <strong>Pinzu</strong>: También llamados pin, dot o puntos, son representados por símbolos redondos. En esta guia se representan con números en <strong style="color: #c00;">color rojo</strong>.<br>
+          <img src="https://riichi-pucela.neocities.org/media/zahando/pin.png">
+        </li>
+        <li> <strong>Souzu</strong>: Tambien llamados sou, bamboo o bambúes, son representados por bambúes verdes. En esta guía se representan con números en <strong style="color: #080;">color verde</strong>.<br>
+                  <img src="https://riichi-pucela.neocities.org/media/zahando/sou.png">
+        </li>
+        <li> <strong>Manzu</strong>: También llamados man, character o caracteres, son representados por carácteres chinos, al principio recomiendo mirar de una cheatsheet. En esta guía son representados con números en <strong style="color: #008;">color azul</strong>.
+                  <img src="https://riichi-pucela.neocities.org/media/zahando/man.png">
+        </li>  
+      </ul>
+    <li> <strong> Dragones </strong>: Hay tres dragones, blanco, verde y rojo (en orden), recomendable aprendérselo en órden. En esta guía se representan con <strong style="color: #d26b03;">color naranja</strong>.<br>
+              <img src="https://riichi-pucela.neocities.org/media/zahando/dragon.png">
+    </li>
+    <li><strong> Vientos</strong>: Hay cuatro, Este, Sur, Norte, Oeste, <strong>MUY IMPORTANTE aprenderselos en este orden</strong>, ya que representa el órden de los asientos y, por consecuente, la dirección del flujo del juego. En esta guía se representan en <strong style="color: #cead03;">color amarillo</strong>.
+    
+              <img src="https://riichi-pucela.neocities.org/media/zahando/wind.png">
+    </li>
+    </ul>
+    El 1 y el 9 se les llaman fichas terminales, del 2 al 8 (por lo que sea) se les llaman fichas no terminales, a los dragones y los vientos se les llaman honores. Hay 4 fichas de cada tipo, con un total de 136 fichas.
+    
+        <h2>Estructura de la mano</h2>
+    <p>Como dije previamente, la mano se constituye de 13 fichas + una restante para ganar, el objetivo es completar la mano más rápido que los oponentes (y, si es posible, con alta puntuación). Por ejemplo:</p>
+    <img src="https://riichi-pucela.neocities.org/media/zahando/manoBasica.png">
+    <p class="tileStructure">
+      <span class="tile pin">2</span>
+      <span class="tile pin">3</span>
+      <span class="tile pin">4</span>
+      <span class="tile pin">7</span>
+      <span class="tile pin">8</span>
+      <span class="tile pin">9</span>
+      <span class="tile sou">5</span>
+      <span class="tile sou">6</span>
+      <span class="tile sou">7</span>
+      <span class="tile man">1</span>
+      <span class="tile man">1</span>
+      <span class="tile man">1</span>
+      <span class="tile dragon">中</span>
+      <span class="tile dragon">中</span>
+    </p>
+    <p> En principio (hay unas pocas excepciones pero dejando eso a parte) la mano se compone en <strong>4 cuerpos y una cabeza</strong>, donde un cuerpo es una secuencia o un trío de valores (por ejemplo,
+      <span class="tile pin">2</span>
+      <span class="tile pin">3</span>
+      <span class="tile pin">4</span> o
+      <span class="tile man">1</span>
+      <span class="tile man">1</span>
+      <span class="tile man">1</span>
+      ), no es posible hacer una secuencia que de una vuelta a la secuencia de números (por ejemplo
+      <span class="tile pin">9</span>
+      <span class="tile pin">1</span>
+      <span class="tile pin">2</span>) o una secuencia de vientos/dragones (por ejemplo
+      <span class="tile dragon">　</span>
+      <span class="tile dragon">發</span>
+      <span class="tile dragon">中</span> o
+      <span class="tile wind">東</span>
+      <span class="tile wind">南</span>
+      <span class="tile wind">西</span>
+      )</p>
+      
+      <p> Una cabeza es una pareja del mismo símbolo, no hay demasiado truco (en el caso del ejemplo, sería
+        <span class="tile dragon">中</span>
+        <span class="tile dragon">中</span>
+      )
+    
+    
+    <h2>Flujo del juego</h2>
+    <img src="https://riichi-pucela.neocities.org/media/tenho.png" alt="Screenshot del juego online Tenho">
+    <p>El juego va dividido en varias rondas, donde una vuelta completa, constituída por cuatro rondas, es un viento (por ejemplo, la primera ronda es Este 1, la siguiente Este 2, Este 3, Este 4, y, después, Sur 1). Se suele jugar en lo general a dos vientos (es decir, de Este 1 a Sur 4, dos vueltas completas) o, cuando hay tiempo limitado, a un viento (es decir, Este 1 a Este 4).</p>
+    
+    <p>El dealer comienza descartando (<strong>SIEMPRE</strong> es el asiento Este, independientemente del viento prevalente), después el del asiento Sur, que es el que va después, después el Oeste y al final el Norte, así infinitamente. La ronda termina cuando:</p>
+    <ol type="a">
+      <li>Alguien completa su mano</li>
+      <li>La montaña de fichas a robar se acaba</li>
+    </ol>
+    <p>Si el dealer gana se repite la ronda hasta que alguna otra persona gane (o cuando alguien se queda en puntos negativos, según la regla del sitio), en caso de empate si el dealer está a una ficha de ganar (a este estado se le llama tenpai, se explicará un poco más en adelante) se repite la ronda, en caso contrario se pasa a la siguiente ronda.</p>
+    <p></p>
+  
+    <h2>¿Que coño es un Yaku?</h2>
+    <p> Un yaku son combinaciones específicas de manos que aumentan el valor de tu mano al ganar, algo así como las manos de poker (carta alta, par, color...), básicamente es <b>lo que hace que al ganar una ronda obtengas más o menos puntos.</b></p>
+    
+    <h2>Robo de fichas</h2>
+    <p>Placeholder</p>
+    
+    <h2>Furiten</h2>
+    <p>Placeholder</p>
+    
+    <h2>¿Entonces solo va de ganar puntos?</h2>
+    <p>Placeholder</p>
+    
+    </section>
+    
+    <footer class="sources">
+  <details>
+    <summary>Créditos</summary>
+    <ul>
+      <li><a href="https://martinpersson.org/" target="_blank">Imágenes de las fichas</a></li>
+    </ul>
+  </details>
+</footer>
+
+
+    </main>
+    
+    <footer class="footer-bar">
+  <p>
+
+  <p>© 2025 Riichi Pucela | Creado con Neocities</p>
+<img src="https://counter.honk.li/cmoe?name=riichi-pucela&theme=mb" alt="Contador de visitas">
+
+</footer>
+
+
+    </body>
+    
+</html>

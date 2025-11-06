@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, sans-serif;
+  background-color: #f2f2f2; 
+  color: #222222;
+}
+
+a {
+  color: #0033cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e6002b;
+  text-decoration: underline;
+}
+
+/* Banner */
+#top {
+  background: linear-gradient(90deg, #400080, #0033cc);
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.banner-content h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.banner-content p {
+  font-size: 1.2rem;
+}
+
+/* Barra de navegación horizontal */
+.nav-bar {
+  display: flex;
+  width: 100%;
+  background-color: #400080;
+}
+
+.nav-button {
+  flex: 1;
+  background-color: #e0e0e0;
+  color: #400080;
+  text-align: center;
+  padding: 15px 0;
+  text-decoration: none;
+  font-weight: bold;
+  border-right: 1px solid #ccc;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-button:last-child {
+  border-right: none;
+}
+
+.nav-button:hover {
+  background-color: #e6002b;
+  color: white;
+}
+
+.news-box {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 2px solid #400080;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.news-box h2 {
+  margin-top: 0;
+  color: #400080;
+  text-align: center;
+}
+
+.news-content {
+  max-height: 200px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.news-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.news-content::-webkit-scrollbar-thumb {
+  background-color: #400080;
+  border-radius: 4px;
+}
+
+.footer-bar {
+  background-color: #e0e0e0; 
+  color: #333;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+}
+
+.footer-bar a {
+  color: #0033cc; 
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.footer-bar a:hover {
+  color: #e6002b; 
+  text-decoration: underline;
+}
+
+/*Section*/
+.section {
+  line-height: 1.4;
+  margin: 60px auto;
+  max-width: 800px; 
+  padding: 0 20px;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section p,
+.section li{
+  font-size: 1.1rem;
+  color: #2e2e2e;
+  line-height: 1.6;
+}
+
+.section img {
+  display: block;
+  margin: 20px auto;
+  max-width: 60%;
+  max-height:60%;
+  width: auto;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+
+/*Sources*/
+.sources {
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+.sources details {
+  cursor: pointer;
+}
+.sources ul {
+  padding-left: 20px;
+}
+.sources a {
+  color: #666;
+  text-decoration: none;
+}
+.sources a:hover {
+  text-decoration: underline;
+}
+
+.tile {
+  display: inline-block;
+  width: 1.5em;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  border: 1px solid #000;
+  border-radius: 3px;
+  margin: 0 2px;
+  font-weight: bold;
+}
+
+.tileStructure{
+  
+}
+
+/*HTML Tiles*/
+.tile.man { background: #ffdddd; color: #c00; }   /* Caracteres (rojo) */
+.tile.pin { background: #ddffdd; color: #080; }    /* Bambú (verde) */
+.tile.sou { background: #ddddff; color: #008; }    /* Círculos (azul) */
+.tile.wind { background: #ffffaa; color: #840; }   /* Vientos (amarillo) */
+.tile.dragon { background: #ffccaa; color: #c00; } /* Dragones (naranja) */
+
+.tileStructure {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
