@@ -1,0 +1,21 @@
+name: Deploy to Neocities
+
+#Enviar a neocities cada vez que se pushee al main
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout del código
+      uses: actions/checkout@v4
+
+    - name: Desplegar a Neocities
+      uses: bcomnes/deploy-to-neocities@v3
+      with:
+        api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
+        cleanup: false
+        dist_dir: .
