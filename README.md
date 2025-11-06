@@ -4,4 +4,4 @@
 
 - TODO:
   - Terminar la guía básica
-  - Arreglar el CSS ya que se esta rompiendo el formato de las fichas de vez en cuando
+  - Arreglar el CSS ya que las fichas pequeñas no estan centradas
